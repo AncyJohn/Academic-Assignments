@@ -44,7 +44,23 @@ Assignment 1 is a comaritative study on Ordinary Least Square Estimate(OLS) 1. B
 
 Assignment 2 fits different regression models to predict the actual sales price. Dataset used is Residential-Building-Data-Set.xlsx. A comparitative study of stepwise selection, ridge,lasso models etc. are applied. Lasso regression model has the least RMSE value.
 
-Assignment 3 is 1. demonstration of nodes/neurons and hidden layers in neural networks 2. application of filters on a convolutional neural network.
+Assignment 3 is 1. demonstration of nodes/neurons and hidden layers in neural networks 
+2. application of filters on a convolutional neural network.
+Analytical tools: google colab
+
+Programming language: Keras (Python API for deep learning)
+
+Data set: FASHION-MNIST
+
+We start with importing the required libraries.
+
+Utility functions are created for the displays.
+
+Load the data for its exploration and assign class labels.
+
+Apply pre-prcessing on the data to get it ready for the training process:Normalization, image flattening, One-hot encoding etc.
+
+Using artificial neural networks in Keras, I have trainedseveral networks with different settings on this dataset to see what effect different settings had on test accuracy and trainingprocess overall.For example, different learning rates, optimisers, batch sizes and architectures. Obtained classification accuracy of 88.9% on test data. Image classification has got its application in computer vision and in many other fields.
 
 Final assessment is 1. on the understanding of different deep level machine learning concepts 2. Fitting a regression model to predict the percent of successful field goals based on 4 different predictors. The dataset ”mlr09” is about physical measurements and performances of 54 players in the NBA.
 
